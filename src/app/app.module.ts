@@ -4,6 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+
+import { MohsinComponent } from './mohsin/mohsin.component';
+
+import { MannanComponent } from './mannan/mannan.component';
+
 import { MannanComponent } from './mannan/mannan.component';
 import { NewTestComponent } from './new-test/new-test.component';
 
@@ -11,6 +16,10 @@ import { NewTestComponent } from './new-test/new-test.component';
   declarations: [
     AppComponent,
     HomeComponent,
+
+
+    MannanComponent
+
     MannanComponent,
     NewTestComponent
   ],
